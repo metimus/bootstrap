@@ -261,7 +261,7 @@ angular.module('ui.bootstrap.datepicker', ['ui.bootstrap.position'])
   appendToBody: false
 })
 
-.directive('datepickerPopup', ['$compile', '$parse', '$document', '$position', 'dateFilter', 'datepickerPopupConfig', 'datepickerConfig'
+.directive('datepickerPopup', ['$compile', '$parse', '$document', '$position', 'dateFilter', 'datepickerPopupConfig', 'datepickerConfig',
 function ($compile, $parse, $document, $position, dateFilter, datepickerPopupConfig, datepickerConfig) {
   return {
     restrict: 'EA',
